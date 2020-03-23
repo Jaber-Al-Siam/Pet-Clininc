@@ -1,2 +1,2 @@
 # Pet-Clininc
-It's a project for Database Management Course.
+It's website development a project for Database Management Course.
