@@ -1,0 +1,76 @@
+body 
+{
+    background: rgb(54, 54, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background: black;
+    background-image: url(images/pet-clinic-head.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+section
+{
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure
+{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    text-transform: uppercase;
+}
+
+.features figure img
+{
+    border: 4px solid white;
+    border-radius: 15%;
+    width: 200px;
+    height: 200px;
+    box-shadow: red 5px 0px 5px;
+}
+
+div
+{
+    background: rgb(235, 17, 35);
+    margin: auto;
+    width: 100px;
+    text-align: center;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer
+{
+    background: black;
+    padding: 10px 20px;
+    color: gray;
+    text-align: center;
+}
