@@ -27,37 +27,37 @@ section
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .features figure
 {
-    border: 2px solid gray;
-    margin: auto;
     text-align: center;
-    width: 200px;
-    height: 200px;
     text-transform: uppercase;
+    width: 200px;
 }
 
 .vets figure
 {
     border: 2px solid gray;
-    margin: auto;
+    border-radius: 5%;
     text-align: center;
-    width: 300px;
-    height: 300px;
     text-transform: uppercase;
-    padding: 5px;
+    width: 300px;
+    padding: 20px;
 }
 
 .features figure img
 {
+    border: 2px solid gray;
+    border-radius: 50%;
     width: 200px;
     height: 200px;
 }
 
 .vets figure img
 {
+    padding: 5px;
     width: 200px;
     height: 150px;
 }
