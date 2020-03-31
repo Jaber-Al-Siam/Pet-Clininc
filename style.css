@@ -50,10 +50,16 @@ section
     padding: 5px;
 }
 
-figure img
+.fetures figure img
 {
     width: 200px;
     height: 200px;
+}
+
+.vets figure img
+{
+    width: 200px;
+    height: 150px;
 }
 
 div
