@@ -1,34 +1,50 @@
-<!DOCTYPE html>
-<html>
+<form action="action_page.php" style="border:1px solid #ccc">
 
-    <head>
-        <title>Pet Clinic</title>
-        <link rel="stylesheet" href="../style.css">
-    </head>
+  <link rel="stylesheet" href="../signup.css">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+    <label for="FName"><b>First Name</b></label>
+    <input type="text" placeholder="First Name"  name="FName" required>
 
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="vet.html">Vet</a></li>
-                </ul>
-            </nav>
-            <h1>
-                Already have an account? <br>
-                <li><a href="login.html">Login</a></li>
-            </h1>
-        </header>
+    <label for="LName"><b>Last Name</b></label>
+    <input type="text" placeholder="Last Name" name="LName" required><br>
 
-        <section>
-            <div>a</div>
-            <div>b</div>
-            <div>c</div>
-        </section>
+    <label for="YourPN"><b>Phone Number    </b></label>
+    <input type="text" placeholder="Phone Number" name="YourPN" required><br>
 
-        <section>lower section</section>
+    <label for="YAddress"><b>Address    </b></label>
+    <input type="text" placeholder="Address" name="YAddress" required><br>
+<hr>
 
-        <footer>footer</footer>
-    </body>
-    
-</html>
+<label> Gender </label><br>
+    <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label><br>
+<hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="pass"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pass" required>
+
+    <label for="pass-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="pass-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign Up</button>
+      <button type="button" class="cancelbtn"><a href="../index.html">Cancel</a></button>
+
+    </div>
+  </div>

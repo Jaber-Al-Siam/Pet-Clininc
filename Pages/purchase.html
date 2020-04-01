@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="buy" href="buy.html">
+  </head>
+
+  <form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+      <h1>Purchase Form</h1>
+      <p>Please enter the following informations to make your purchase</p>
+
+      <hr>
+      <label for="FName"><b>First Name</b></label>
+      <input type="text" placeholder="First Name"  name="FName" required>
+  
+      <label for="LName"><b>Last Name</b></label>
+      <input type="text" placeholder="Last Name" name="LName" required><br>
+  
+      <label for="YourPN"><b>Phone Number    </b></label>
+      <input type="text" placeholder="Phone Number" name="YourPN" required><br>
+  
+      <label for="YAddress"><b>Address    </b></label>
+      <input type="text" placeholder="Address" name="YAddress" required><br>
+
+      <label for="CardInfo"><b>Credit Card Number   </b></label>
+      <input type="text" placeholder="Credit Card Number" name="CardInfo" required><br>
+
+      <label for="CPin"><b>Pin    </b></label>
+      <input type="text" placeholder="Pin" name="CPin" required><br>
+
+      <label>
+        <input type="checkbox" checked="checked" name="agree" style="margin-bottom:15px"> I Agree to all the Terms and Conditions
+      </label>
+
+      <div class="clearfix">
+        <button type="button" class="buy">Purchase</bucdtton>
+        <button type="submit" class="cancel"><a href="../pages/buy.html">Cancel</a></button>
+      </div>
+
+    </div>
+    <hr>
+</html>
