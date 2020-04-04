@@ -98,6 +98,17 @@ body {
     box-shadow: gray 0 0 10px;
     width: 200px;
   }
+  button {
+    background-color: #ffb6b6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:
+    opacity: 0.9;
+  }
+ 
   
   /* FOOTER */
   
