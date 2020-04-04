@@ -8,6 +8,13 @@ header {
     text-align: center;
   }
 
+   header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+
 table{
   background-color: #fcf8f3;
   border-color: #639a67;
