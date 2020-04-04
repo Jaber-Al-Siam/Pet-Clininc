@@ -18,7 +18,12 @@ hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
-
+h1{
+  background-color: #cff1ef;
+}
+body{
+  background-color: ;
+}
 
 button {
   background-color: #4CAF50;
