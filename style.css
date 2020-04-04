@@ -7,7 +7,17 @@ body
     padding: 0;
 }
 
-header
+header {
+    background-color:black;
+    background-image: url("images/header/header3.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+
+/*header
 {
     background: black;
     background-image: url(images/pet-clinic-head.jpg);
@@ -17,7 +27,7 @@ header
     height: 400px;
     padding: 20px;
     text-align: left;
-}
+}*/
 
 section
 {

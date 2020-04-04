@@ -1,3 +1,13 @@
+header {
+    background-color:black;
+    background-image: url("images/header/header3.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+
 table{
   background-color: #fcf8f3;
   border-color: #639a67;
